@@ -1,15 +1,15 @@
-#Markforged API Test
+# Markforged API Test
 
-##API documentation
+## API documentation
 
 The documentation for this API is located in the /api/doc directory
 
-##Running the server
+## Running the server
 
-To run the server locally, ensure that npm and node are installed.  Then, from the root directory of the project, run 'npm start' on the command line.
-To run tests, from the root directory run 'npm test'
+- To run the server locally, ensure that npm and node are installed.  Then, from the root directory of the project, run 'npm start' on the command line.
+- To run tests, from the root directory run 'npm test'
 
-##Design decisions:
+## Design decisions:
 
 	- Overview:
 		This API was implemented with the assumption that the object storage and the printer storage is separate.  Objects are stored in a central database, and the entire object object is retrieved and sent to a printer to add it to the printer storage so that it can be printed.  This assumption was made for optimizing the the use of this API with a print farm.  Since an object may never be printed using a certain printer, it does not make sense to upload every object to all printers.
@@ -26,7 +26,7 @@ To run tests, from the root directory run 'npm test'
 	- Printing objects:
 		The printers themselves are unimplemented in this project.  As a result, once an object is added to the printing queue for a printer, it will never leave the queue or get moved to the complete state.  The response to requesting prints with status "complete" will always return empty collections mapped to the printer name until the printers are implemented.
 
-##Future work:
+## Future work:
 	- Document the API with response parameters, as opposed to just request parameters.
 
 	- Implement the printers (as simulations or integrate with real 3D printers).
