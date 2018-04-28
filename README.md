@@ -2,12 +2,12 @@
 
 ## API documentation
 
-The documentation for this API is located in the /api/doc directory
+The documentation for this API is located in the /api/doc directory.
 
 ## Running the server
 
 - To run the server locally, ensure that npm and node are installed.  Then, from the root directory of the project, run 'npm start' on the command line.
-- To run tests, from the root directory run 'npm test'
+- To run tests, from the root directory run 'npm test'.
 
 ## Design decisions:
 
