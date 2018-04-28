@@ -35,7 +35,7 @@ router.post('/', function (req, res) {
         res.status(400).send(JsonResponse.AddObjectJsonResponse("An error occured while adding the object", null))
     } else {
         //bad request
-        res.status(400).send(JsonResponse.AddObjectJsonResponse("Bad request", null))
+        res.status(400).send(JsonResponse.AddObjectJsonResponse("An object already exists with that name", null))
     }
 
 });
