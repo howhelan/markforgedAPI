@@ -2,7 +2,7 @@
 
 ## API documentation
 
-The documentation for this API is located in the /api/doc directory.
+The documentation for this API is located in the /doc directory.
 
 ## Running the server
 
