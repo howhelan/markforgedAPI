@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="main.css">
+    <meta charset="UTF-8">
+    <title>markforged</title>
+                                                         </head>
+<body>
+<div class="container">
+    <h1>markforged</h1>
+    <p class="sw-info">
+        
+        Version: <span class="sw-info-version">1.0.0</span>
+    </p>
+    <p><p>Markforged API exercise</p>
+    </p>
+    
+    
+    <div id="sw-schemes" class="sw-default-value">
+        <span class="sw-default-value-header">Schemes:</span>
+        
+    </div>
+    
+        
+        <h2 id="swagger--summary-tags">Summary</h2>
+            <h3 id="tag-Objects" class="swagger-summary-tag">Tag: Objects</h3>
+            
+            <p class="sw-tag-external-doc">
+            </p>
+            <table class="table table-bordered table-condensed swagger--summary">
+                <thead>
+                <tr>
+                    <th>Operation</th>
+                    <th>Description</th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="#operation--objects-post">POST /objects</a></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#operation--objects-delete">DELETE /objects</a></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#operation--objects-get">GET /objects</a></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#operation--objects-put">PUT /objects</a></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+            <h3 id="tag-_Users_Hugh_Documents_work_markforged_src_api_controller_printerController_js" class="swagger-summary-tag">Tag: _Users_Hugh_Documents_work_markforged_src_api_controller_printerController_js</h3>
+            
+            <p class="sw-tag-external-doc">
+            </p>
+            <table class="table table-bordered table-condensed swagger--summary">
+                <thead>
+                <tr>
+                    <th>Operation</th>
+                    <th>Description</th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="#operation--prints-post">POST /prints</a></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#operation--prints-status-get">GET /prints/status</a></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        
+    
+    
+    
+    <h2>Paths</h2>
+    
+        
+        <span id="path--objects"></span>
+            <div id="operation--objects-delete" class="swagger--panel-operation-delete panel">
+                <div class="panel-heading">
+                    <div class="operation-summary"></div>
+                    <h3 class="panel-title"><span class="operation-name">DELETE</span> <strong>/objects</strong></h3>
+                        Tags:
+                            <a href="#tag-Objects">Objects</a>
+                </div>
+                <div class="panel-body">
+                    <section class="sw-operation-description">
+                        
+                    </section>
+            
+                        
+                            <section class="sw-request-body">
+                                
+                                    <p><span class="label label-default">application/json</span> 
+                        </p>
+                            </section>        
+                        <section class="sw-request-params">
+                            <table class="table">
+                                <thead>
+                                <tr>
+                                    <th class="sw-param-name"></th>
+                                    <th class="sw-param-description"></th>
+                                    <th class="sw-param-type"></th>
+                                    <th class="sw-param-data-type"></th>
+                                    <th class="sw-param-annotation"></th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                        <tr>
+                                            <td>
+                                                name
+                                            </td>
+                                            <td><p>The unique name of the object to be deleted </p>
+                                        </td>
+                                            <td>path</td>
+                                            <td>
+                                        <span class="json-property-type">string</span>
+                                        <span class="json-property-range" title="Value limits"></span>
+                                        
+                                            </td>
+                                            <td>
+                                                    <span class="json-property-required"></span>
+                                            </td>
+                                        </tr>
+                                </tbody>
+                            </table>
+                        </section>
+                    
+                </div>
+            </div>
+            <div id="operation--objects-get" class="swagger--panel-operation-get panel">
+                <div class="panel-heading">
+                    <div class="operation-summary"></div>
+                    <h3 class="panel-title"><span class="operation-name">GET</span> <strong>/objects</strong></h3>
+                        Tags:
+                            <a href="#tag-Objects">Objects</a>
+                </div>
+                <div class="panel-body">
+                    <section class="sw-operation-description">
+                        
+                    </section>
+            
+                        
+                            <section class="sw-request-body">
+                                
+                                    <p><span class="label label-default">application/json</span> 
+                        </p>
+                            </section>        
+                        <section class="sw-request-params">
+                            <table class="table">
+                                <thead>
+                                <tr>
+                                    <th class="sw-param-name"></th>
+                                    <th class="sw-param-description"></th>
+                                    <th class="sw-param-type"></th>
+                                    <th class="sw-param-data-type"></th>
+                                    <th class="sw-param-annotation"></th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                        <tr>
+                                            <td>
+                                                name
+                                            </td>
+                                            <td><p>The unique name of the object </p>
+                                        </td>
+                                            <td>path</td>
+                                            <td>
+                                        <span class="json-property-type">string</span>
+                                        <span class="json-property-range" title="Value limits"></span>
+                                        
+                                            </td>
+                                            <td>
+                                                    <span class="json-property-required"></span>
+                                            </td>
+                                        </tr>
+                                </tbody>
+                            </table>
+                        </section>
+                    
+                </div>
+            </div>
+            <div id="operation--objects-post" class="swagger--panel-operation-post panel">
+                <div class="panel-heading">
+                    <div class="operation-summary"></div>
+                    <h3 class="panel-title"><span class="operation-name">POST</span> <strong>/objects</strong></h3>
+                        Tags:
+                            <a href="#tag-Objects">Objects</a>
+                </div>
+                <div class="panel-body">
+                    <section class="sw-operation-description">
+                        
+                    </section>
+            
+                        
+                            <section class="sw-request-body">
+                                
+                                    <p><span class="label label-default">application/json</span> 
+                        </p>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <p></p>
+                                            </div>
+                                            <div class="col-md-6 sw-request-model">
+                            <div  class="panel panel-definition">
+                                <div class="panel-body">
+                                            <a class="json-schema-ref" href="#/definitions/AddObject">AddObject</a>
+                                </div>
+                            </div></div>
+                                        </div>
+                            </section>        
+                    
+                </div>
+            </div>
+            <div id="operation--objects-put" class="swagger--panel-operation-put panel">
+                <div class="panel-heading">
+                    <div class="operation-summary"></div>
+                    <h3 class="panel-title"><span class="operation-name">PUT</span> <strong>/objects</strong></h3>
+                        Tags:
+                            <a href="#tag-Objects">Objects</a>
+                </div>
+                <div class="panel-body">
+                    <section class="sw-operation-description">
+                        
+                    </section>
+            
+                        
+                            <section class="sw-request-body">
+                                
+                                    <p><span class="label label-default">application/json</span> 
+                        </p>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <p></p>
+                                            </div>
+                                            <div class="col-md-6 sw-request-model">
+                            <div  class="panel panel-definition">
+                                <div class="panel-body">
+                                            <a class="json-schema-ref" href="#/definitions/UpdateObject">UpdateObject</a>
+                                </div>
+                            </div></div>
+                                        </div>
+                            </section>        
+                    
+                </div>
+            </div>
+        
+        <span id="path--prints"></span>
+            <div id="operation--prints-post" class="swagger--panel-operation-post panel">
+                <div class="panel-heading">
+                    <div class="operation-summary"></div>
+                    <h3 class="panel-title"><span class="operation-name">POST</span> <strong>/prints</strong></h3>
+                        Tags:
+                            <a href="#tag-_Users_Hugh_Documents_work_markforged_src_api_controller_printerController_js">_Users_Hugh_Documents_work_markforged_src_api_controller_printerController_js</a>
+                </div>
+                <div class="panel-body">
+                    <section class="sw-operation-description">
+                        
+                    </section>
+            
+                        
+                            <section class="sw-request-body">
+                                
+                                    <p><span class="label label-default">application/json</span> 
+                        </p>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <p></p>
+                                            </div>
+                                            <div class="col-md-6 sw-request-model">
+                            <div  class="panel panel-definition">
+                                <div class="panel-body">
+                                            <a class="json-schema-ref" href="#/definitions/AddPrint">AddPrint</a>
+                                </div>
+                            </div></div>
+                                        </div>
+                            </section>        
+                    
+                </div>
+            </div>
+        
+        <span id="path--prints-status"></span>
+            <div id="operation--prints-status-get" class="swagger--panel-operation-get panel">
+                <div class="panel-heading">
+                    <div class="operation-summary"></div>
+                    <h3 class="panel-title"><span class="operation-name">GET</span> <strong>/prints/status</strong></h3>
+                        Tags:
+                            <a href="#tag-_Users_Hugh_Documents_work_markforged_src_api_controller_printerController_js">_Users_Hugh_Documents_work_markforged_src_api_controller_printerController_js</a>
+                </div>
+                <div class="panel-body">
+                    <section class="sw-operation-description">
+                        
+                    </section>
+            
+                        
+                            <section class="sw-request-body">
+                                
+                                    <p><span class="label label-default">application/json</span> 
+                        </p>
+                            </section>        
+                        <section class="sw-request-params">
+                            <table class="table">
+                                <thead>
+                                <tr>
+                                    <th class="sw-param-name"></th>
+                                    <th class="sw-param-description"></th>
+                                    <th class="sw-param-type"></th>
+                                    <th class="sw-param-data-type"></th>
+                                    <th class="sw-param-annotation"></th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                        <tr>
+                                            <td>
+                                                status
+                                            </td>
+                                            <td><p>The status </p>
+                                        </td>
+                                            <td>path</td>
+                                            <td>
+                                        <span class="json-property-type">string</span>
+                                        <span class="json-property-range" title="Value limits"></span>
+                                        
+                                            </td>
+                                            <td>
+                                                    <span class="json-property-required"></span>
+                                            </td>
+                                        </tr>
+                                </tbody>
+                            </table>
+                        </section>
+                    
+                </div>
+            </div>
+    
+     
+    
+                       
+        <h2>Schema definitions</h2>
+    
+            
+                <div id="definition-AddObject" class="panel panel-definition">
+                        <div class="panel-heading">
+                                <h3 class="panel-title"><a name="/definitions/AddObject"></a>AddObject:
+                                    <span class="json-property-type">
+                <span class="json-property-type">object</span>
+                <span class="json-property-range" title="Value limits"></span>
+                
+                </span>
+                                </h3>
+                        </div>
+                    <div class="panel-body">
+                            
+                                <section class="json-schema-properties">
+                                    <dl>
+                                            <dt data-property-name="name">
+                                                <span class="json-property-name">name:</span>
+                                                
+                                                <span class="json-property-type">string</span>
+                                                <span class="json-property-range" title="Value limits"></span>
+                                                
+                                                    <span class="json-property-required"></span>
+                                            </dt>
+                                            <dd>
+                                                <p>the unique name of the object </p>
+                                
+                                                <div class="json-inner-schema">
+                                                    
+                                                </div>
+                                            </dd>
+                                            <dt data-property-name="materialType">
+                                                <span class="json-property-name">materialType:</span>
+                                                
+                                                <span class="json-property-type">string</span>
+                                                <span class="json-property-range" title="Value limits"></span>
+                                                
+                                                    <span class="json-property-required"></span>
+                                            </dt>
+                                            <dd>
+                                                <p>the materialType of the object </p>
+                                
+                                                <div class="json-inner-schema">
+                                                    
+                                                </div>
+                                            </dd>
+                                            <dt data-property-name="printerType">
+                                                <span class="json-property-name">printerType:</span>
+                                                
+                                                <span class="json-property-type">string</span>
+                                                <span class="json-property-range" title="Value limits"></span>
+                                                
+                                                    <span class="json-property-required"></span>
+                                            </dt>
+                                            <dd>
+                                                <p>the printerType of the object </p>
+                                
+                                                <div class="json-inner-schema">
+                                                    
+                                                </div>
+                                            </dd>
+                                            <dt data-property-name="orientation">
+                                                <span class="json-property-name">orientation:</span>
+                                                
+                                                <span class="json-property-type">string</span>
+                                                <span class="json-property-range" title="Value limits"></span>
+                                                
+                                                    <span class="json-property-required"></span>
+                                            </dt>
+                                            <dd>
+                                                <p>the orientation of the object </p>
+                                
+                                                <div class="json-inner-schema">
+                                                    
+                                                </div>
+                                            </dd>
+                                            <dt data-property-name="density">
+                                                <span class="json-property-name">density:</span>
+                                                
+                                                <span class="json-property-type">string</span>
+                                                <span class="json-property-range" title="Value limits"></span>
+                                                
+                                                    <span class="json-property-required"></span>
+                                            </dt>
+                                            <dd>
+                                                <p>the density of the object </p>
+                                
+                                                <div class="json-inner-schema">
+                                                    
+                                                </div>
+                                            </dd>
+                                    </dl>
+                                </section>
+                    </div>
+                </div>        
+                <div id="definition-AddPrint" class="panel panel-definition">
+                        <div class="panel-heading">
+                                <h3 class="panel-title"><a name="/definitions/AddPrint"></a>AddPrint:
+                                    <span class="json-property-type">
+                <span class="json-property-type">object</span>
+                <span class="json-property-range" title="Value limits"></span>
+                
+                </span>
+                                </h3>
+                        </div>
+                    <div class="panel-body">
+                            
+                                <section class="json-schema-properties">
+                                    <dl>
+                                            <dt data-property-name="objectName">
+                                                <span class="json-property-name">objectName:</span>
+                                                
+                                                <span class="json-property-type">string</span>
+                                                <span class="json-property-range" title="Value limits"></span>
+                                                
+                                                    <span class="json-property-required"></span>
+                                            </dt>
+                                            <dd>
+                                                <p>the name of the object to print </p>
+                                
+                                                <div class="json-inner-schema">
+                                                    
+                                                </div>
+                                            </dd>
+                                            <dt data-property-name="printer">
+                                                <span class="json-property-name">printer:</span>
+                                                
+                                                <span class="json-property-type">string</span>
+                                                <span class="json-property-range" title="Value limits"></span>
+                                                
+                                                    <span class="json-property-required"></span>
+                                            </dt>
+                                            <dd>
+                                                <p>the name of the printer to print with </p>
+                                
+                                                <div class="json-inner-schema">
+                                                    
+                                                </div>
+                                            </dd>
+                                    </dl>
+                                </section>
+                    </div>
+                </div>        
+                <div id="definition-DeleteObject" class="panel panel-definition">
+                        <div class="panel-heading">
+                                <h3 class="panel-title"><a name="/definitions/DeleteObject"></a>DeleteObject:
+                                    <span class="json-property-type">
+                <span class="json-property-type">object</span>
+                <span class="json-property-range" title="Value limits"></span>
+                
+                </span>
+                                </h3>
+                        </div>
+                    <div class="panel-body">
+                            
+                                <section class="json-schema-properties">
+                                    <dl>
+                                            <dt data-property-name="name">
+                                                <span class="json-property-name">name:</span>
+                                                
+                                                <span class="json-property-type">string</span>
+                                                <span class="json-property-range" title="Value limits"></span>
+                                                
+                                                    <span class="json-property-required"></span>
+                                            </dt>
+                                            <dd>
+                                                <p>The unique name of the object to be deleted </p>
+                                
+                                                <div class="json-inner-schema">
+                                                    
+                                                </div>
+                                            </dd>
+                                    </dl>
+                                </section>
+                    </div>
+                </div>        
+                <div id="definition-GetObjectsByName" class="panel panel-definition">
+                        <div class="panel-heading">
+                                <h3 class="panel-title"><a name="/definitions/GetObjectsByName"></a>GetObjectsByName:
+                                    <span class="json-property-type">
+                <span class="json-property-type">object</span>
+                <span class="json-property-range" title="Value limits"></span>
+                
+                </span>
+                                </h3>
+                        </div>
+                    <div class="panel-body">
+                            
+                                <section class="json-schema-properties">
+                                    <dl>
+                                            <dt data-property-name="name">
+                                                <span class="json-property-name">name:</span>
+                                                
+                                                <span class="json-property-type">string</span>
+                                                <span class="json-property-range" title="Value limits"></span>
+                                                
+                                                    <span class="json-property-required"></span>
+                                            </dt>
+                                            <dd>
+                                                <p>The unique name of the object </p>
+                                
+                                                <div class="json-inner-schema">
+                                                    
+                                                </div>
+                                            </dd>
+                                    </dl>
+                                </section>
+                    </div>
+                </div>        
+                <div id="definition-GetPrintsByStatus" class="panel panel-definition">
+                        <div class="panel-heading">
+                                <h3 class="panel-title"><a name="/definitions/GetPrintsByStatus"></a>GetPrintsByStatus:
+                                    <span class="json-property-type">
+                <span class="json-property-type">object</span>
+                <span class="json-property-range" title="Value limits"></span>
+                
+                </span>
+                                </h3>
+                        </div>
+                    <div class="panel-body">
+                            
+                                <section class="json-schema-properties">
+                                    <dl>
+                                            <dt data-property-name="status">
+                                                <span class="json-property-name">status:</span>
+                                                
+                                                <span class="json-property-type">string</span>
+                                                <span class="json-property-range" title="Value limits"></span>
+                                                
+                                                    <span class="json-property-required"></span>
+                                            </dt>
+                                            <dd>
+                                                <p>The status </p>
+                                
+                                                <div class="json-inner-schema">
+                                                    
+                                                </div>
+                                            </dd>
+                                    </dl>
+                                </section>
+                    </div>
+                </div>        
+                <div id="definition-UpdateObject" class="panel panel-definition">
+                        <div class="panel-heading">
+                                <h3 class="panel-title"><a name="/definitions/UpdateObject"></a>UpdateObject:
+                                    <span class="json-property-type">
+                <span class="json-property-type">object</span>
+                <span class="json-property-range" title="Value limits"></span>
+                
+                </span>
+                                </h3>
+                        </div>
+                    <div class="panel-body">
+                            
+                                <section class="json-schema-properties">
+                                    <dl>
+                                            <dt data-property-name="name">
+                                                <span class="json-property-name">name:</span>
+                                                
+                                                <span class="json-property-type">string</span>
+                                                <span class="json-property-range" title="Value limits"></span>
+                                                
+                                                    <span class="json-property-required"></span>
+                                            </dt>
+                                            <dd>
+                                                <p>The unique name of the object to be updated </p>
+                                
+                                                <div class="json-inner-schema">
+                                                    
+                                                </div>
+                                            </dd>
+                                            <dt data-property-name="materialType">
+                                                <span class="json-property-name">materialType:</span>
+                                                
+                                                <span class="json-property-type">string</span>
+                                                <span class="json-property-range" title="Value limits"></span>
+                                                
+                                                    <span class="json-property-required"></span>
+                                            </dt>
+                                            <dd>
+                                                <p>optional: The new materialType of the objet </p>
+                                
+                                                <div class="json-inner-schema">
+                                                    
+                                                </div>
+                                            </dd>
+                                            <dt data-property-name="printerType">
+                                                <span class="json-property-name">printerType:</span>
+                                                
+                                                <span class="json-property-type">string</span>
+                                                <span class="json-property-range" title="Value limits"></span>
+                                                
+                                                    <span class="json-property-required"></span>
+                                            </dt>
+                                            <dd>
+                                                <p>optional: The new printerType of the object </p>
+                                
+                                                <div class="json-inner-schema">
+                                                    
+                                                </div>
+                                            </dd>
+                                            <dt data-property-name="orientation">
+                                                <span class="json-property-name">orientation:</span>
+                                                
+                                                <span class="json-property-type">string</span>
+                                                <span class="json-property-range" title="Value limits"></span>
+                                                
+                                                    <span class="json-property-required"></span>
+                                            </dt>
+                                            <dd>
+                                                <p>optional: The new orientation of the object </p>
+                                
+                                                <div class="json-inner-schema">
+                                                    
+                                                </div>
+                                            </dd>
+                                            <dt data-property-name="density">
+                                                <span class="json-property-name">density:</span>
+                                                
+                                                <span class="json-property-type">string</span>
+                                                <span class="json-property-range" title="Value limits"></span>
+                                                
+                                                    <span class="json-property-required"></span>
+                                            </dt>
+                                            <dd>
+                                                <p>optional: The new density of the object </p>
+                                
+                                                <div class="json-inner-schema">
+                                                    
+                                                </div>
+                                            </dd>
+                                    </dl>
+                                </section>
+                    </div>
+                </div>
+</div>
+<script src="bundle.js" type="application/javascript"></script>
+</body>
+</html>
